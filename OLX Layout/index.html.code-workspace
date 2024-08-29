@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "../Practice"
+		},
+		{
+			"path": "../assignment.html"
+		},
+		{
+			"path": "../index.html"
+		},
+		{
+			"path": "../index2.html"
+		},
+		{
+			"path": "../index3.html"
+		},
+		{
+			"path": "../mywebsite"
+		},
+		{
+			"path": "../bookswebsite"
+		},
+		{
+			"path": "../Portfolio Website"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../bootstrap"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "OLX Layout"
+	}
+}

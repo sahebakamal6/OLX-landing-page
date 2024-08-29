@@ -1,0 +1,2088 @@
+body{
+    margin: auto;
+    padding: 0;
+    cursor: pointer;
+}
+
+#main{
+    width: 100%;
+    height: 50px;
+}
+
+.second-header{
+    width: 100%;
+    height: 50px;
+}
+
+.navbar-1{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar-2{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 15px;
+    position: fixed;
+    background-color: white;
+    border: 1px solid;
+    border-color: white white rgba(0, 0, 0, 0.219) white;
+    z-index: 1;
+}
+
+.menu-bar{
+    margin: auto;
+    position: absolute;
+    left: 2%;
+    top: 18%;
+    display: none;
+}
+
+.olxlogo{
+    height: 50px;
+    width: 100px;
+    place-content: center;
+    margin-left: 100px;
+}
+
+.motors{
+    height: 50px;
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.car-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background:-webkit-gradient(linear,left top,left bottom, from(rgba(94, 94, 94, 0.241)),to(rgba(255, 255, 255, 0)));
+    text-align: center;
+}
+
+.property{
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.building-icon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background:-webkit-gradient(linear,left top,left bottom, from(rgba(94, 94, 94, 0.241)),to(rgba(255, 255, 255, 0)));
+    text-align: center;
+    margin:0 0 0 30px;
+}
+
+.h5-1{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 35%;
+
+}
+
+.h5-2{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 0 0 10px;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 35%;
+
+}
+
+._5120d4ee{
+    padding: 6px;
+}
+
+.motors:hover{
+    color: rgb(67, 67, 255);
+}
+
+.property:hover{
+    color: rgb(67, 67, 255);
+
+}
+
+._5120d4ee:hover{
+    padding: 6px;
+    background-color: rgb(214, 214, 255);
+    border-radius: 50%;
+}
+
+.dropdown{
+    height: 37px;
+    width: 22%;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    border-radius: 3px;
+    position: relative;
+    margin-left:-100px;
+}
+
+.p-1{
+    font-family: sans-serif;
+    margin: 10px 0 0 32px;
+    font-size: small;
+}
+
+.material-icons{
+    margin: auto ;
+    position: absolute;
+    left: 8.5%;
+}
+
+.fa {
+    margin: auto;
+    position: absolute;
+    left: 28%;
+}
+
+.search-bar{
+    height: 35px;
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+    border-radius: 3px;
+    position: relative;
+}
+
+.searchicon{
+    height: 37px;
+    width: 37px;
+    margin: auto;
+    position: absolute;
+    right: 28.3%;
+    border-radius: 0 2px 2px 0;
+    box-shadow:inset black;
+}
+
+a{
+    color: black;
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: 700;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+button{
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjokwlhhgvn1l8-O8VCcSXKCCC-ZyAul8KmgFM-CbR7tPd9P2t);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    margin-right: 20px;
+    border-radius: 180px;
+    height: 34px;
+    width: 70px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align:end;
+}
+
+.button:hover{
+    height: 30px;
+    width: 66px;
+}
+
+.plus-sign{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    right:21%;
+}
+
+
+/*👆👆👆👆👆
+header styling complete here...*/
+
+/*article styling*/
+
+.article-1{
+    height: 500vh;
+    width: 100%;
+    position: relative;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+    margin: 0 0 0 10px;
+    font-family: sans-serif;
+    font-size: 11.5px;
+    color: rgb(0, 50, 11);
+}
+
+.list-1{
+    position: absolute;
+    right: 0;
+    left: 6%;
+}
+
+ul li:hover{
+    color: rgb(5, 141, 109);
+}
+
+.li-1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+.angle-down{
+    height: 12px;
+    width: 14px;
+    position: absolute;
+    top: 20%;
+}
+
+.slide{
+    background-image: url(https://images.olx.com.pk/thumbnails/437508562-800x600.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border-radius: 5px;
+    width: 97%;
+    height: 145px;
+    position: absolute;
+    margin: auto;
+    top: 2%;
+    left: 0%;
+    right: 0%;
+}
+
+.ads{
+    height: 80px;
+    width: 60%;
+    background-image: url(https://s0.2mdn.net/simgad/8741037059043963498);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+}
+
+.wrong-icon{
+    height: 15px;
+    width: 15px;
+    filter: drop-shadow(1px 1px 0 rgb(3, 91, 3));
+    margin: auto;
+    position: absolute;
+    left: 59%;
+    right: 0;
+    top: 10%;
+}
+
+.i-icon{
+    height: 11px;
+    width: 11px;
+    margin: auto;
+    position: absolute;
+    left: 56%;
+    right: 0;
+    top: 10.1%;
+    
+}
+
+h3{
+    font-family: sans-serif;
+    margin: auto;
+    position: absolute;
+    top: 15%;
+    left: 12%;
+}
+
+.categories{
+    height: 200px;
+    width: 80%;
+    background-color: rgba(168, 98, 98, 0);
+    margin: auto;
+    position: absolute;
+    left: 5%;
+    right: 0;
+    top: 17%;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    place-content: space-between;
+
+
+
+}
+
+.one-1{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/mobiles.8c768c96bfde33f18fcf5af2a8b9cf71.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.two-2{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/vehicles.29fb808d5118f0db56f68a39ce5392e2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.three-3{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.p-one{
+    margin-top: 70px;
+}
+
+.four-4{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/property-for-rent.8436595fbaa90d47f0178006f57090a8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.five-5{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.six-6{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.seven-7{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/business-industrial-agriculture.704a6ffb9081bc94b11c102cc613670f.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.eight-8{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/services.dc6aef196c0403dc61b0ee813f66fa5b.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.nine-9{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/jobs.79e6136dda02111cf8e7afe26b9e0f93.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.ten-10{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/animals.62d396e85f7523dbc8ff23889fdd5c31.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.eleven-11{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.twelve-12{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.thirteen-13{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.fourteen-14{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/kids.cd8d8864804f1c35dd6a7df68268a48d.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.more-vehicles{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(195, 140, 247, 0);
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: large;
+    position: absolute;
+    top: 28%;
+}
+
+.p-two{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(53, 137, 254);
+    float: right;
+    position: absolute;
+    top: 28%;
+    right: 3%;
+
+}
+
+.chevron-right{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 28.7%;
+    right: 1%;
+}
+
+.vehicle-one{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/478995345-240x180.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.vehicle-two{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/413327654-240x180.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.vehicle-three{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/480759544-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.vehicle-four{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/478995007-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.daihatsu-mira{
+    height: 120px;
+    width: 310px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0 0 5px 5px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591);
+    position: absolute;
+    top: 55%;
+
+}
+
+.mira-sideglass{
+    height: 120px;
+    width: 310px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0 0 5px 5px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 25.1%;
+    top: 55%;
+}
+
+.mira-sideglass-2{
+    height: 120px;
+    width: 310px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0 0 5px 5px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591);
+    position: absolute;
+    margin: auto;
+    left: 25.1%;
+    right: 0;
+    top: 55%;
+}
+
+.mira-sideglass-3{
+    height: 120px;
+    width: 310px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0 0 5px 5px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591);
+    position: absolute;
+    margin: auto;
+    left: 25.1%;
+    right: 0;
+    top: 55%;
+}
+
+.mira-sideglass-4{
+    height: 120px;
+    width: 310px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0 0 5px 5px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591);
+    position: absolute;
+    margin: auto;
+    left: 25.1%;
+    right: 0;
+    top: 55%;
+}
+
+.mira-sideglass-5{
+    height: 120px;
+    width: 310px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0 0 5px 5px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591);
+    position: absolute;
+    margin: auto;
+    left: 25.1%;
+    right: 0;
+    top: 55%;
+}
+
+.mira-sideglass-6{
+    height: 120px;
+    width: 310px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0 0 5px 5px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591);
+    position: absolute;
+    margin: auto;
+    left: 25.1%;
+    right: 0;
+    top: 55%;
+}
+
+.dry-battery{
+    height: 120px;
+    width: 310px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 0 0 5px 5px;
+    border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591) rgba(0, 0, 0, 0.591);
+    position: absolute;
+    right: 0;
+    top: 55%;
+}
+
+.fd258638{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    left: 3%;
+}
+
+.p1{
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(8, 74, 51);
+    margin-left: 10px;
+}
+
+.p2{
+    font-family: sans-serif;
+    font-size: small;
+    color: rgb(8, 74, 51);
+    line-height: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.p3{
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(87, 88, 88);
+    margin-left: 25px;
+}
+
+.p4{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(87, 88, 88);
+    margin-left: 10px;
+}
+
+.p5{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(87, 88, 88);
+    margin-left: 10px;
+}
+
+.like-icon{
+    position: absolute;
+    margin: auto;
+    top: 7%;
+    right: 3%;
+}
+
+.p6{
+    font-family: sans-serif;
+    font-size: small;
+    color: rgb(8, 74, 51);
+    margin-left: 10px;
+}
+
+.mobile-phones{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(195, 140, 247, 0);
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.h2-2{
+        font-family: sans-serif;
+        font-size: large;
+        position: absolute;
+        top: 43%;
+}
+
+.p-three{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(53, 137, 254);
+    float: right;
+    position: absolute;
+    top: 43%;
+    right: 3%;
+
+}
+
+.chevron-right-2{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 43.7%;
+    right: 1%;
+}
+
+.one-plus{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/441772033-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.iphone{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/480062692-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.iphone-2{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/461137354-240x180.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.iphone-3{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/478665457-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.bikes-motorcycles{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(195, 140, 247, 0);
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.h2-3{
+        font-family: sans-serif;
+        font-size: large;
+        position: absolute;
+        top: 58%;
+}
+
+.p-four{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(53, 137, 254);
+    float: right;
+    position: absolute;
+    top: 58%;
+    right: 3%;
+
+}
+
+.chevron-right-3{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 58.7%;
+    right: 1%;
+}
+
+.bike-1{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/472155862-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.bike-2{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/477072003-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.bike-3{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAWtHst4LF6iVk0pDCvEhRSpX6m5mLBP2PmA&s);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.bike-4{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/383911835-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.lands-plots{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(195, 140, 247, 0);
+    margin: auto;
+    position: absolute;
+    top: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.h2-4{
+        font-family: sans-serif;
+        font-size: large;
+        position: absolute;
+        top: 73%;
+}
+
+.p-five{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(53, 137, 254);
+    float: right;
+    position: absolute;
+    top: 73%;
+    right: 3%;
+
+}
+
+.chevron-right-4{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 73.7%;
+    right: 1%;
+}
+
+.plot-1{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/476532169-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.plot-2{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/478831977-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.plot-3{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/477985865-240x180.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.plot-4{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/473311882-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.video-audio{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(195, 140, 247, 0);
+    margin: auto;
+    position: absolute;
+    top: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.h2-5{
+        font-family: sans-serif;
+        font-size: large;
+        position: absolute;
+        top: 88%;
+}
+
+.p-six{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(53, 137, 254);
+    float: right;
+    position: absolute;
+    top: 88%;
+    right: 3%;
+
+}
+
+.chevron-right-5{
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 88.7%;
+    right: 1%;
+}
+
+.video-audio-1{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/460067460-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.video-audio-2{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/448042786-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.video-audio-3{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/474243972-240x180.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.video-audio-4{
+    height: 200px;
+    width: 310px;
+    background-image: url(https://images.olx.com.pk/thumbnails/465480713-240x180.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.p7{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(87, 88, 88);
+    margin-left: 10px;
+    margin-top: 28px;
+}
+
+.p8{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(87, 88, 88);
+    margin-left: 10px;
+    margin-top: 35px;
+}
+/*article one end here*/
+
+.article-2{
+    height: 420px;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    margin-top: 100px;
+    position: relative;
+}
+
+.ad-2{
+    height: 200px;
+    width: 70%;
+    background-image: url(https://tpc.googlesyndication.com/simgad/14244687715630323025);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.post{
+    height: 200px;
+    width: 100%;
+    background-color: rgba(171, 170, 170, 0.13);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.ad-3{
+    height: 180px;
+    width: 38%;
+    background-image: url(https://www.olx.com.pk/assets/olxMobileApp.f5579f77e849b600ad60857e46165516.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact{
+    height: 180px;
+    width: 38%;
+    background-color: rgb(247, 247, 247);
+    position: relative;
+}
+
+.vertical-line{
+    height: 200px;
+    width: 10px;
+    filter:drop-shadow(1px 1px 0 rgb(106, 106, 106));
+}
+
+.p-9{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: auto;
+    position: absolute;
+    top: 25%;
+    right: 58%;
+}
+
+.app-1{
+    height: 40px;
+    width: 120px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLW05qXhFHCoz3glailvxDsRRQejvPtadS6Slhnswa-A_nH8FA);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.app-2{
+    height: 40px;
+    width: 120px;
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTHtwxo3WD2zrbcZg6XvxHHOphYeLuCCtcm_90Pl6Uj1BapPwTT);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 37%;
+}
+
+.app-3{
+    height: 40px;
+    width: 120px;
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQvUs-NbKD_wpnQ6xG948HYQ7zFp1xo8Xhaeq2mlRbDvHNEziTe);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    position: relative;
+}
+
+.xoxo{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 45, 45);
+    position: absolute;
+    bottom: 0;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.p-10{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 10px;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+.contact-list{
+    font-weight: bold;
+    font-size: 15px;
+    margin: auto;
+}
+
+.con-list-1{
+    margin-left: 50px;
+}
+
+.con-list-2{
+    margin-left: 120px;
+}
+
+ol li{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: rgb(83, 83, 83);
+}
+
+.order-list{
+    background-color: rgba(0, 0, 255, 0.308);
+    height: 100px;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    left: 5%;
+}
+
+.order-list-1{
+    height: 90px;
+    width: 100px;
+    background-color: rgba(137, 43, 226, 0);
+    margin: auto;
+    position: absolute;
+    top: 8%;
+    left: 4%;
+}
+
+.order-list-2{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(137, 43, 226, 0);
+    margin: auto;
+    position: absolute;
+    top: 8%;
+    left: 19%;
+}
+
+.order-list-3{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(137, 43, 226, 0);
+    margin: auto;
+    position: absolute;
+    top: 8%;
+    left: 33%;
+}
+
+.order-list-4{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(137, 43, 226, 0);
+    margin: auto;
+    position: absolute;
+    top: 8%;
+    left: 42%;
+}
+
+ol li:hover{
+    color: rgb(0, 0, 0);
+}
+
+.socialmedia-icon{
+    position: absolute;
+    right: 36%;
+}
+
+.cont-icon{
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width:1024px){
+    .dropdown{
+        margin-left:-20px;
+    }
+
+    .material-icons{
+        left: 10%;
+    }
+
+    .searchicon{
+        right: 26.5%;
+    }
+
+    .plus-sign{
+        right:17.5%;
+    }
+
+    .vehicle-four{
+        display: none;
+    }
+
+    .mira-sideglass-2{
+        display: none;
+    }
+
+    .mira-sideglass{
+        width: 312px;
+        right: 0;
+    }
+
+    .iphone-3{
+        display: none;
+    }
+
+    .mira-sideglass-3{
+        display: none;
+    }
+
+    .mira-sideglass-4{
+        display: none;
+    }
+
+    .mira-sideglass-5{
+        display: none;
+    }
+
+    .mira-sideglass-6{
+        display: none;
+    }
+
+    .bike-4{
+
+        display: none;
+    }
+
+    .plot-4{
+        display: none;
+    }
+
+    .video-audio-4{
+      display: none;
+    }
+
+    .chevron-right{
+        top: 28.6%;
+    }
+
+    .chevron-right-2{
+        top: 43.6%;
+    }
+
+    .chevron-right-3{
+        top: 58.6%;
+    }
+
+    .chevron-right-4{
+        top: 73.6%;
+    }
+
+    .chevron-right-5{
+        top: 88.6%;
+    }
+
+    .app-1{
+        height: 30px;
+        width: 100px;
+    }
+
+    .app-2{
+        height: 30px;
+        width: 100px;
+    }
+
+    .app-3{
+        height: 30px;
+        width: 100px;
+    }
+
+    .order-list-1{
+        left: 5%;
+    }
+
+    .order-list-2{
+        left: 23.5%;
+    }
+
+    .order-list-3{
+        left: 41%;
+    }
+
+    .order-list-4{
+        left: 52%;
+    }
+
+    .socialmedia-icon{
+        right: 21%;
+    }
+
+    .cont-icon{
+        right: 7%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .dropdown{
+        margin-left:90px;
+    }
+
+    .material-icons{
+        left: 14%;
+    }
+
+    .fa {
+        margin: auto;
+        position: absolute;
+        left: 32%;
+    }
+
+    .searchicon{
+        right: 21.8%;
+    }
+
+    .plus-sign{
+        right:10%;
+    }
+
+    .vehicle-one{
+        width: 250px;
+    }
+
+    .vehicle-two{
+        width: 250px;
+    }
+
+    .vehicle-three{
+        width: 250px;
+    }
+
+    .daihatsu-mira{
+        width: 250px;
+    }
+
+    .mira-sideglass{
+        width: 250px;
+    }
+
+    .dry-battery{
+        width: 250px;
+    }
+
+    .one-plus{
+        width: 250px;
+    }
+
+    .iphone{
+        width: 250px;
+    }
+
+    .iphone-2{
+        width: 250px;
+    }
+
+    .p6{
+        margin-bottom: -12px;
+    }
+
+    .bike-1{
+        width: 250px;
+    }
+
+    .bike-2{
+        width: 250px;
+    }
+
+    .bike-3{
+        width: 250px;
+    }
+
+    .plot-1{
+        width: 250px;
+    }
+
+    .plot-2{
+        width: 250px;
+    }
+
+    .plot-3{
+        width: 250px;
+    }
+
+    .p8{
+        margin-top: auto;
+    }
+
+    .p2{
+        line-height: normal;
+    }
+
+    .video-audio-1{
+        width: 250px;
+    }
+
+    .video-audio-2{
+        width: 250px;
+    }
+
+    .video-audio-3{
+        width: 250px;
+    }
+
+    .ad-2{
+        background-size: contain;
+    }
+
+    .p-9{
+        font-size: 12px;
+        right: 41%;
+    }
+
+    .app-1{
+        height: 25px;
+        width: 80px;
+        border-radius: 1px;
+    }
+
+    .app-2{
+        height: 25px;
+        width: 80px;
+        border-radius: 2px;
+    }
+
+    .app-3{
+        height: 25px;
+        width: 80px;
+        border-radius: 2px;
+    }
+
+    .con-list-1{
+        margin-left: 20px;
+    }
+    
+    .con-list-2{
+        margin-left: 80px;
+    }
+
+    
+    .order-list-1{
+        left: 3%;
+    }
+
+    .order-list-2{
+        left: 23.5%;
+    }
+
+    .order-list-3{
+        left: 43%;
+    }
+
+    .order-list-4{
+        left: 54%;
+    }
+
+    .socialmedia-icon{
+        right: 15%;
+    }
+
+    .cont-icon{
+        right: 0;
+    }
+
+    .chevron-right{
+        top: 28.8%;
+    }
+
+    .chevron-right-2{
+        top: 43.8%;
+    }
+
+    .chevron-right-3{
+        top: 58.8%;
+    }
+
+    .chevron-right-4{
+        top: 73.8%;
+    }
+
+    .chevron-right-5{
+        top: 88.8%;
+    }
+}
+
+@media only screen and (max-width:320px){
+    .menu-bar{
+        display: block;
+    }
+
+    .olxlogo{
+        margin-left: 50px;
+    }
+    
+    .property{
+        margin-right: 5px;
+    }
+    
+    .building-icon{
+        margin-right: 80px;
+    }
+
+    .h5-1{
+        font-size: 12px;
+        left: 55%;
+    }
+
+    .h5-2{
+        font-size: 12px;
+        left: 45%;
+    }
+
+    .navbar-2{
+        height: 80px;
+        flex-direction: column;
+    }
+
+    .dropdown{
+        border: none;
+        margin-left: -80%;
+    }
+
+    .material-icons{
+        top: 12%;
+        left: 1%;
+    }
+
+    .fa {
+        margin: auto;
+        position: absolute;
+        left: 26%;
+        top: 6.5%;
+    }
+
+    a{
+        display: none;
+    }
+
+    button{
+        display: none;
+    }
+
+    .search-bar{
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    .searchicon{
+        right: 6.5%;
+        top: 50%;
+    }
+
+    .list-1{
+        display: none;
+    }
+
+    .slide{
+        height: 50px;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .ads{
+        width: 90%;
+        top: 5%;
+    }
+    
+    .wrong-icon{
+        left: 91%;
+        top: 5%;
+    }
+    
+    .i-icon{
+        left: 83%;
+        top: 5.09%;
+    }
+
+    h3{
+        top: 9%;
+        left: 6%;
+    }
+
+    .categories{
+        right: 15%;
+        top: 12%;
+        grid-template-columns: auto auto auto auto;
+        row-gap: 40px;
+        column-gap: 20px;
+    }
+    
+    .one-1{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 140px;
+    }
+
+    .two-2{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 140px;
+    }
+
+    .three-3{
+        display: none;
+    }
+
+    .four-4{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .five-5{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .six-6{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 140px;
+    }
+
+    .seven-7{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .eight-8{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 140px;
+    }
+
+    .nine-9{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 140px;
+    }
+
+    .ten-10{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 140px;
+    }
+
+    .eleven-11{
+        display: none;
+    }
+
+    .twelve-12{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .thirteen-13{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .fourteen-14{
+        height: 60px;
+        width: 60px;
+        font-size: 10px;
+        line-height: 140px;
+    }
+
+    h2{
+        font-size: medium;
+        top: 25%;
+    }
+
+    .p-two{
+        top: 25%;
+        right: 8%;
+    }
+
+    .chevron-right{
+        top: 25.8%;
+    }
+
+
+    .vehicle-two{
+        display: none;
+    }
+
+    .vehicle-three{
+        display: none;
+    }
+
+    .dry-battery{
+        display: none;
+    }
+
+    .mira-sideglass{
+        display: none;
+    }
+
+    .vehicle-one{
+        width: 300px;
+        margin: -15% 0 0 10px;
+    }
+
+    .daihatsu-mira{
+        width: 300px;
+        top: 40%;
+        left: 3.2%;
+    }
+
+    .iphone{
+        display: none;
+    }
+
+    .iphone-2{
+        display: none;
+    }
+
+    .h2-2{
+        font-size: medium;
+        top: 41%;
+    }
+
+    .p-three{
+        top: 41%;
+        right: 8%;
+    }
+
+    .chevron-right-2{
+        top: 41.8%;
+    }
+
+    .one-plus{
+        width: 300px;
+        margin: -15% 0 0 10px;
+    }
+
+    .h2-3{
+        font-size: medium;
+        top: 56%;
+    }
+
+    .p-four{
+        top: 56%;
+        right: 8%;
+    }
+
+    .chevron-right-3{
+        top: 56.8%;
+    }
+
+    .bike-1{
+        width: 300px;
+        margin: -15% 0 0 10px;
+    }
+
+    .bike-2{
+        display: none;
+    }
+
+    .bike-3{
+        display: none;
+    }
+
+    .h2-4{
+        font-size: medium;
+        top: 71%;
+    }
+
+    .p-five{
+        top: 71%;
+        right: 8%;
+    }
+
+    .chevron-right-4{
+        top: 71.8%;
+    }
+    
+    .plot-1{
+        width: 300px;
+        margin: -15% 0 0 10px;
+    }
+
+    .plot-2{
+        display: none;
+    }
+
+    .plot-3{
+        display: none;
+    }
+
+    .h2-5{
+        font-size: medium;
+        top: 86%;
+    }
+
+    .p-six{
+        top: 86%;
+        right: 8%;
+    }
+
+    .chevron-right-5{
+        top: 86.8%;
+    }
+
+    .video-audio-1{
+        width: 300px;
+        margin: -15% 0 0 10px;
+    }
+
+    .video-audio-2{
+        display: none;
+    }
+
+    .video-audio-3{
+        display: none;
+    }
+
+    .ad-3{
+        background-size: contain;
+    }
+
+    .p-9{
+        top: 20%;
+        right: 20%;
+        left: 20%;
+    }
+
+    .app-1{
+        height: 23px;
+        width: 100px;
+        border-radius: 1px;
+        left: 5%;
+    }
+
+    .app-2{
+        height: 20px;
+        width: 70px;
+        border-radius: 2px;
+        top: 55%;
+        left: 20%;
+    }
+
+    .app-3{
+        height: 20px;
+        width: 70px;
+        border-radius: 2px;
+        top: 70%;
+        left: 20%;
+    }
+
+    .contact-list{
+        margin: auto;
+    }
+
+    .con-list-1{
+        display: none;
+    }
+    
+    .con-list-2{
+        margin-left: auto;
+        font-size: 15px;
+    }
+
+    
+    .order-list-1{
+        display: none;
+    }
+
+    .order-list-2{
+        display: none;
+    }
+
+    .order-list-3{
+       display: none;
+    }
+
+    .order-list-4{
+        display: none;
+    }
+
+    .socialmedia-icon{
+       left: 15%;
+       top: 15%;
+    }
+
+    .cont-icon{
+        left: 0;
+        top: 35%;
+    }
+}
